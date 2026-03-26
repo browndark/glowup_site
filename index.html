@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GlowUp - Tudo 10 | Maquiagem e Acessórios Femininos de Qualidade">
+    <meta name="keywords" content="maquiagem, acessórios, makeup, beleza, cosméticos">
+    <title>GlowUp - Tudo 10 | Maquiagem e Acessórios</title>
+    
+    <!-- Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- NAVEGAÇÃO -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="lo10.png" alt="GlowUp - Tudo 10" class="logo-img">
+                <span class="logo-text">GlowUp</span>
+            </div>
+            
+            <!-- Menu hambúrguer para mobile -->
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+            <!-- Menu de navegação -->
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Início</a></li>
+                <li><a href="#about" class="nav-link">Sobre</a></li>
+                <li><a href="#products" class="nav-link">Produtos</a></li>
+                <li><a href="#categories" class="nav-link">Categorias</a></li>
+                <li><a href="#contact" class="nav-link">Contato</a></li>
+            </ul>
+            
+            <!-- Botão tema claro/escuro -->
+            <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- SEÇÃO HERO (Inicial) -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Brilhe com Confiança</h1>
+                <p class="hero-subtitle">Maquiagem e Acessórios Que Realçam Sua Beleza</p>
+                <p class="hero-description">
+                    Descubra nossa seleção exclusiva de produtos de qualidade premium para expressar sua personalidade e estilo único.
+                </p>
+                
+                <!-- Botões CTA -->
+                <div class="hero-buttons">
+                    <a href="#products" class="btn btn-primary">Ver Coleção</a>
+                    <a href="#contact" class="btn btn-secondary">Fale Conosco</a>
+                </div>
+            </div>
+            
+            <!-- Visual na direita -->
+            <div class="hero-visual">
+                <div class="floating-card">
+                    <i class="fas fa-sparkles"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO SOBRE -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre a GlowUp</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Bem-vinda à <strong>GlowUp - Tudo 10</strong>, seu destino favorito para maquiagem e acessórios femininos de qualidade. 
+                        Acreditamos que toda mulher merece produtos que realçam sua beleza natural e únicos talentos.
+                    </p>
+                    <p>
+                        Selecionamos cuidadosamente cada item de nossa coleção para garantir qualidade, durabilidade e estilo incomparável. 
+                        Desde itens clássicos até as tendências mais atuais, temos tudo para completar seu look.
+                    </p>
+                    
+                    <div class="about-highlights">
+                        <div class="highlight">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Produtos de Qualidade Premium</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Seleção Exclusiva e Tendências</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Atendimento Personalizado</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Entrega Rápida e Segura</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO CATEGORIAS -->
+    <section id="categories" class="categories">
+        <div class="container">
+            <h2 class="section-title">Nossas Categorias</h2>
+            
+            <div class="categories-grid">
+                <!-- Categoria 1 -->
+                <div class="category-card">
+                    <div class="category-icon">💄</div>
+                    <h3>Maquiagem</h3>
+                    <p>Base, pó, blush, sombra e mais. Encontre tudo para um makeup perfeito.</p>
+                    <a href="#products" class="btn btn-small">Explorar</a>
+                </div>
+
+                <!-- Categoria 2 -->
+                <div class="category-card">
+                    <div class="category-icon">💅</div>
+                    <h3>Tratamento</h3>
+                    <p>Produtos para cuidado e beleza da pele. Nutra sua pele como merece.</p>
+                    <a href="#products" class="btn btn-small">Explorar</a>
+                </div>
+
+                <!-- Categoria 3 -->
+                <div class="category-card">
+                    <div class="category-icon">✨</div>
+                    <h3>Acessórios</h3>
+                    <p>Pincéis, espelhos, bolsas e muito mais para complete seu kit.</p>
+                    <a href="#products" class="btn btn-small">Explorar</a>
+                </div>
+
+                <!-- Categoria 4 -->
+                <div class="category-card">
+                    <div class="category-icon">💍</div>
+                    <h3>Joias & Adornos</h3>
+                    <p>Colares, pulseiras e anéis para realçar seu estilo único.</p>
+                    <a href="#products" class="btn btn-small">Explorar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO PRODUTOS -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title">Produtos em Destaque</h2>
+            <p class="section-subtitle">Conheça nossas peças mais populares</p>
+            
+            <div class="products-grid">
+                <!-- Produto 1 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="lo10.png" alt="Base Líquida Premium">
+                        <span class="product-badge">Popular</span>
+                        <div class="product-overlay">
+                            <button class="btn btn-small btn-white">
+                                <i class="fas fa-shopping-bag"></i> Adicionar
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Base Líquida Premium</h3>
+                        <p class="product-description">Cobertura perfeita com acabamento natural.</p>
+                        <div class="product-price">
+                            <span class="price">R$ 89,90</span>
+                        </div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(234 avaliações)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Produto 2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="lo10.png" alt="Paleta de Sombras Matte">
+                        <span class="product-badge">Novo</span>
+                        <div class="product-overlay">
+                            <button class="btn btn-small btn-white">
+                                <i class="fas fa-shopping-bag"></i> Adicionar
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Paleta de Sombras Matte</h3>
+                        <p class="product-description">12 cores neutras para looks versáteis.</p>
+                        <div class="product-price">
+                            <span class="price">R$ 129,90</span>
+                        </div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(189 avaliações)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Produto 3 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="lo10.png" alt="Batom Líquido Matte">
+                        <span class="product-badge">Top Vendedor</span>
+                        <div class="product-overlay">
+                            <button class="btn btn-small btn-white">
+                                <i class="fas fa-shopping-bag"></i> Adicionar
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Batom Líquido Matte</h3>
+                        <p class="product-description">Longa duração com acabamento impecável.</p>
+                        <div class="product-price">
+                            <span class="price">R$ 54,90</span>
+                        </div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(512 avaliações)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Produto 4 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="lo10.png" alt="Blush em Pó Rosado">
+                        <span class="product-badge">Desconto</span>
+                        <div class="product-overlay">
+                            <button class="btn btn-small btn-white">
+                                <i class="fas fa-shopping-bag"></i> Adicionar
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Blush em Pó Rosado</h3>
+                        <p class="product-description">Pigmentação intensa e pigmentação uniforme.</p>
+                        <div class="product-price">
+                            <span class="original-price">R$ 69,90</span>
+                            <span class="price">R$ 49,90</span>
+                        </div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(176 avaliações)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Produto 5 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="lo10.png" alt="Kit de Pincéis Profissional">
+                        <div class="product-overlay">
+                            <button class="btn btn-small btn-white">
+                                <i class="fas fa-shopping-bag"></i> Adicionar
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Kit de Pincéis Profissional</h3>
+                        <p class="product-description">12 pincéis para aplicação perfeita.</p>
+                        <div class="product-price">
+                            <span class="price">R$ 159,90</span>
+                        </div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(143 avaliações)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Produto 6 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="lo10.png" alt="Colar Dourado Minimalista">
+                        <div class="product-overlay">
+                            <button class="btn btn-small btn-white">
+                                <i class="fas fa-shopping-bag"></i> Adicionar
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Colar Dourado Minimalista</h3>
+                        <p class="product-description">Design elegante para qualquer ocasião.</p>
+                        <div class="product-price">
+                            <span class="price">R$ 79,90</span>
+                        </div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(98 avaliações)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO NEWSLETTER -->
+    <section class="newsletter">
+        <div class="container">
+            <h2>Fique por Dentro das Novidades</h2>
+            <p>Receba ofertas exclusivas e lançamentos direto no seu email</p>
+            
+            <form class="newsletter-form" id="newsletterForm">
+                <input 
+                    type="email" 
+                    placeholder="Seu melhor email" 
+                    required
+                    class="form-input"
+                >
+                <button type="submit" class="btn btn-primary">Inscrever-se</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- SEÇÃO CONTATO -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+            <p class="section-subtitle">Estamos aqui para ajudar</p>
+            
+            <div class="contact-content">
+                <!-- Informações de contato -->
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Telefone</h4>
+                            <a href="tel:+5511999999999">(11) 9 9999-9999</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:contato@glowuptudo10.com">contato@glowuptudo10.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fab fa-instagram"></i>
+                        <div>
+                            <h4>Instagram</h4>
+                            <a href="https://instagram.com/glowuptudo10" target="_blank">@glowuptudo10</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <a href="https://wa.me/5511999999999" target="_blank">Enviar mensagem</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Formulário de contato -->
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input 
+                            type="text" 
+                            placeholder="Seu Nome" 
+                            id="name" 
+                            required
+                            class="form-input"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <input 
+                            type="email" 
+                            placeholder="Seu Email" 
+                            id="email" 
+                            required
+                            class="form-input"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <input 
+                            type="text" 
+                            placeholder="Assunto" 
+                            id="subject" 
+                            required
+                            class="form-input"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <textarea 
+                            placeholder="Sua Mensagem" 
+                            id="message" 
+                            rows="5" 
+                            required
+                            class="form-input"
+                        ></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <i class="fas fa-paper-plane"></i> Enviar Mensagem
+                    </button>
+
+                    <div id="formMessage" class="form-message" style="display: none;"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>GlowUp - Tudo 10</h4>
+                    <p>Maquiagem e Acessórios Femininos de Qualidade</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Navegação Rápida</h4>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#products">Produtos</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Siga-nos</h4>
+                    <div class="social-links">
+                        <a href="https://instagram.com/glowuptudo10" target="_blank" rel="noopener noreferrer" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://facebook.com/glowuptudo10" target="_blank" rel="noopener noreferrer" title="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer" title="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="mailto:contato@glowuptudo10.com" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 GlowUp - Tudo 10. Todos os direitos reservados.</p>
+                <p>Desenvolvido com <i class="fas fa-heart"></i> para você!</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
