@@ -350,6 +350,8 @@ body.light-theme .navbar {
     background: none;
     border-radius: 50%;
     overflow: hidden;
+    width: 150px;
+    height: 150px;
 }
 
 .floating-card.logo-display img {
